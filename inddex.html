@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Pagination & Breadcrumb</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="p-4">
+
+  <div class="container">
+
+    <!-- Breadcrumb -->
+    <h3>Breadcrumb Example</h3>
+    <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active">Data</li>
+      </ol>
+    </nav>
+
+    <hr>
+
+    <!-- Basic Pagination -->
+    <h3>Basic Pagination</h3>
+    <nav>
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Active State -->
+    <h3>Active State</h3>
+    <nav>
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+      </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Disabled State -->
+    <h3>Disabled State</h3>
+    <nav>
+      <ul class="pagination">
+        <li class="page-item disabled"><a class="page-link">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Pagination Sizing -->
+    <h3>Pagination Sizing</h3>
+
+    <p>Large:</p>
+    <ul class="pagination pagination-lg">
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+    </ul>
+
+    <p>Small:</p>
+    <ul class="pagination pagination-sm">
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+    </ul>
+
+    <hr>
+
+    <!-- Pagination Alignment -->
+    <h3>Pagination Alignment</h3>
+
+    <p>Center:</p>
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+    </ul>
+
+    <p>Right:</p>
+    <ul class="pagination justify-content-end">
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+    </ul>
+
+  </div>
+
+</body>
+</html>
